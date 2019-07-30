@@ -74,9 +74,7 @@
 			}
 		%>
 
-		<%
-			
-		%>
+		
 	</ul>
 	<%
 		} else {
@@ -86,8 +84,18 @@
 		}
 	%>
 	
-	<a class="btn btn-success" href="index.jsp">ACEPTAR</a>	
-</div>
+	 <a class="btn btn-success" href="index.jsp">ACEPTAR
+	
+	</a>	
+	
+	<script>
+	alert("Registro Exitoso");
+	</script>
+	 
+	 
+	 
+
+
 		
 		
          
