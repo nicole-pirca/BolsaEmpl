@@ -25,6 +25,21 @@
 		<a href="MostrarCatalogo.jsp"> <img src="images/logo2.png">
 		</a> BOLSA DE EMPLEO PICHINCHA
 	</header>
+	
+	
+	<%
+		String codigPersona = "1";
+	%>
+
+<%
+
+   ArrayList persona = ControladorAdm.listarPersona();
+%>
+	
+			
+	<p class="text-justify">REGISTRO DE:  <%=persona %></p>
+	
+	
   <div class="mx-auto" style="width: 250px;">
 	   <h1>SERVICIOS</h1>
 	<%
